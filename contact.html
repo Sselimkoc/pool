@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - AquaCraft Pools</title>
+    <meta name="description" content="Get in touch with our swimming pool experts. Contact AquaCraft Pools for consultations, quotes, or any questions about our services.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loading-overlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <button class="mobile-nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <nav class="mobile-nav-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html#testimonials">Testimonials</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="page-content">
+        <div class="page-header">
+            <h1>Contact Us</h1>
+            <p>Have a question or ready to transform your backyard? Get in touch with our pool experts today.</p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Our Information</h3>
+                
+                <div class="contact-info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="content">
+                        <h4>Address</h4>
+                        <p>123 Pool Lane, Los Angeles, CA 90001</p>
+                    </div>
+                </div>
+                
+                <div class="contact-info-item">
+                    <i class="fas fa-phone"></i>
+                    <div class="content">
+                        <h4>Phone</h4>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+                
+                <div class="contact-info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div class="content">
+                        <h4>Email</h4>
+                        <p>info@aquacraftpools.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-info-item">
+                    <i class="fas fa-clock"></i>
+                    <div class="content">
+                        <h4>Working Hours</h4>
+                        <p>Monday - Friday: 8AM - 6PM<br>Saturday: 9AM - 4PM</p>
+                    </div>
+                </div>
+                
+                <div class="social-media">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <select class="form-control" id="subject" name="subject">
+                            <option value="" disabled selected>Select Service</option>
+                            <option value="Pool Construction">Pool Construction</option>
+                            <option value="Pool Renovation">Pool Renovation</option>
+                            <option value="Pool Maintenance">Pool Maintenance</option>
+                            <option value="Consultation">Consultation</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea class="form-control" id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.27405770525!2d-118.69192047471653!3d34.02016130390376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1619794410578!5m2!1sen!2s" width="100%" height="450" style="border:0; border-radius: 15px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- Back to Home Section -->
+    <section class="back-to-home">
+        <div class="container">
+            <div class="back-to-home-content">
+                <h3>Return to Homepage</h3>
+                <p>Learn more about our pool services and view our stunning portfolio of completed projects</p>
+                <a href="index.html" class="back-to-home-btn"><i class="fas fa-arrow-left"></i> Back to Home</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,60 C300,120 900,0 1200,60 L1200,120 L0,120 Z" fill="var(--primary-color)" opacity="0.1"/>
+                <path d="M0,80 C300,140 900,20 1200,80 L1200,120 L0,120 Z" fill="var(--secondary-color)" opacity="0.1"/>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <div class="pool-icon">
+                                <div class="pool-water"></div>
+                                <div class="pool-wave"></div>
+                            </div>
+                        </div>
+                        <h3>AquaCraft Pools</h3>
+                    </div>
+                    <p>Creating luxury swimming experiences with premium craftsmanship and innovative design solutions for over 15 years.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4><i class="fas fa-cogs"></i> Services</h4>
+                        <ul>
+                            <li><a href="services.html">Custom Pool Design</a></li>
+                            <li><a href="services.html">Pool Renovation</a></li>
+                            <li><a href="services.html">Maintenance & Care</a></li>
+                            <li><a href="services.html">Pool Accessories</a></li>
+                            <li><a href="services.html">Emergency Repairs</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4><i class="fas fa-building"></i> Company</h4>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="testimonials.html">Reviews</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4><i class="fas fa-phone-alt"></i> Contact</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <strong>Address</strong>
+                                    <p>123 Pool Lane<br>Los Angeles, CA 90210</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <strong>Phone</strong>
+                                    <p>+1 (555) 123-4567</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <strong>Email</strong>
+                                    <p>info@aquacraftpools.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="footer-copyright">
+                        <p>&copy; 2024 AquaCraft Pools. All rights reserved.</p>
+                    </div>
+                    <div class="footer-certifications">
+                        <div class="certification-badge">
+                            <i class="fas fa-award"></i>
+                            <span>Licensed & Insured</span>
+                        </div>
+                        <div class="certification-badge">
+                            <i class="fas fa-star"></i>
+                            <span>5-Star Rated</span>
+                        </div>
+                        <div class="certification-badge">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>10 Year Warranty</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fixed CTA Button -->
+    <div class="fixed-cta">
+        <a href="#contact-form" class="btn-fixed">Get Free Quote</a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html> 
